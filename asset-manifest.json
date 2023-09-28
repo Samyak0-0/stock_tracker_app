@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stock_tracker_app/static/css/main.4031cdf3.css",
+    "main.js": "/stock_tracker_app/static/js/main.05b264b4.js",
+    "index.html": "/stock_tracker_app/index.html",
+    "main.4031cdf3.css.map": "/stock_tracker_app/static/css/main.4031cdf3.css.map",
+    "main.05b264b4.js.map": "/stock_tracker_app/static/js/main.05b264b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4031cdf3.css",
+    "static/js/main.05b264b4.js"
+  ]
+}
