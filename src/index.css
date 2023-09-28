@@ -1,0 +1,114 @@
+.main_table {
+  border-spacing: 2vw;
+  border: 3px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+td, th {
+  border:  2px solid black;
+  padding: 2vh 2vw;
+
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.search-bar {
+  height: 4vh;
+  width: 50vw;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0 30px;
+  border: 3px solid rgb(198, 208, 209);
+}
+
+.auto-main-body {
+  display: grid;
+  place-items: center;
+}
+
+ul[class$="hide"] {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  max-width: 250px;
+  max-height: 300px;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.list {
+  position: relative;
+  right: 10vw;
+}
+
+button[class^="btn"] {
+  margin: 10px 5px;
+  background: rgba(192, 192, 192, 0.301);
+  width: 45px;
+  height: 30px;
+  cursor: pointer;
+  border: 2px solid rgb(156,159,175);
+  border-radius: 10px;
+  color: rgb(156,159,175);
+}
+
+button[class^="btn"]:hover {
+ 
+  background: rgba(176, 190, 220, 0.37);
+  border: 2px solid rgb(175,188,210);
+  border-radius: 10px;
+  color: rgb(151, 134, 247);
+}
+
+button[class$="-onselect"]{
+  background: rgb(6,82,180);
+  color: aliceblue;
+  border: 4px solid rgb(142,169,218);
+  padding: 3px 3px;
+}
+button[class$="-onselect"]:hover{
+  background: rgb(6,82,180);
+  color: aliceblue;
+  box-shadow: 0 0 4px 3px rgba(6, 81, 180, 0.747);
+}
+
+.remove {
+  background: red;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  margin-left: 6px;
+  visibility: hidden;
+}
+
+.t_row:hover .remove {
+  visibility: visible;
+}
+
+.main-detail-body {
+  display: grid;
+  font-size: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid rgb(156,159,175);
+  border-radius: 6px;
+  padding: 10px 0;
+}
+
+.body {
+  margin: 20px 5px;
+}
